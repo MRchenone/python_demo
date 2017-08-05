@@ -2,7 +2,6 @@
 这是我参照知乎上的教程写的，作为一名python新手，这对于我来是第一个项目，如有欠缺请多多包含。
 原文网址：https://zhuanlan.zhihu.com/p/27199954
 参考文献
-
 [1] I. Goodfellow. Nips 2016 tutorial: Generative adversarial networks. arXiv preprint arXiv:1701.00160, 2016.
 
 [2] A. B. L. Larsen, S. K. Sønderby, Generating Faces with Torch. Torch | Generating Faces with Torch
