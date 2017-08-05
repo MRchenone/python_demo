@@ -27,3 +27,4 @@ ax0.plot(x_samples,PDF)
 ax0.axis([-3.5,3.5,0,numpy.max(PDF)*1.1])
 ax1.hist(x,100)
 pyplot.show()
+#原文网址：https://zhuanlan.zhihu.com/p/27199954
