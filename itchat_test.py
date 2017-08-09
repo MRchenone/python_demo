@@ -20,3 +20,10 @@ def text_reply(msg):
         itchat.send(u'@%s\u2005T received: %s' % (msg['ActualNickName'],msg['Content']),msg['FromUserName'])
 itchat.auto_login(True)
 itchat.run()
+#用户多开
+newInstance=itchat.new_instance()
+newInstance.auto_login(hotReload=True,statusStorageDir='newInstance.pkl')
+@newInstance.msg_register(TEXT)
+def reply(msg):
+    return msg['Text']
+newInstance.run()
